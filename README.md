@@ -12,4 +12,7 @@ We propose three optimized architectures:
 
 ### How to use
 
-The proposed architectures can be used as a drop-in replacement for the polynomial multiplier in the architecture proposed in [1], whose source code is available [here](http://example.net/).
+The proposed architectures can be used as a drop-in replacement for the polynomial multiplier in the architecture proposed in [1], whose source code is available [here](https://github.com/sujoyetc/SABER_HW).
+
+
+[1] Sinha Roy, S., & Basso, A. (2020). _High-speed Instruction-set Coprocessor for Lattice-based Key Encapsulation Mechanism: Saber in Hardware_. IACR Transactions on Cryptographic Hardware and Embedded Systems, 2020(4), 443-466. https://doi.org/10.13154/tches.v2020.i4.443-466
