@@ -45,8 +45,4 @@ wire [12:0] a0s1_a1s0 = buf3[0] ? -result[27:15] : result[27:15];
 wire [12:0] a1s1_ = buf3[2] == result[30] ? result[42:30] : result[42:30] - 1'b1;
 wire [12:0] a1s1 = 	buf3[1] ? -a1s1_ : a1s1_;
 
-wire error = buf3[2] != result[30];
-wire [12:0] a0s0_corr = s0[3] == 1'b1 ? -a0*s0[2:0] : -a0*s0[2:0];
-wire [12:0] a1s1_corr = s1[3] == 1'b1 ? -a1*s1[2:0] : -a1*s1[2:0];
-
 endmodule
